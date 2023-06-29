@@ -17,6 +17,7 @@ com\portfolio\BackEnd\Security\jwt\JwtProvider.class
 com\portfolio\BackEnd\Security\Controller\AuthController.class
 com\portfolio\BackEnd\Security\MainSecurity.class
 com\portfolio\BackEnd\Interface\IPersonaService.class
+com\portfolio\BackEnd\configuration\CorsConfiguration.class
 com\portfolio\BackEnd\Security\jwt\JwtTokenFilter.class
 com\portfolio\BackEnd\Security\Dto\NuevoUsuario.class
 com\portfolio\BackEnd\Controller\PersonaController.class

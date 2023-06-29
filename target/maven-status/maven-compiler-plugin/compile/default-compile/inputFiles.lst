@@ -27,6 +27,7 @@ D:\Argentina Programa\2da Parte\Modulo 1\Portafolio\Backend\src\main\java\com\po
 D:\Argentina Programa\2da Parte\Modulo 1\Portafolio\Backend\src\main\java\com\portfolio\BackEnd\Security\jwt\JwtEntryPoint.java
 D:\Argentina Programa\2da Parte\Modulo 1\Portafolio\Backend\src\main\java\com\portfolio\BackEnd\Dto\dtoPersona.java
 D:\Argentina Programa\2da Parte\Modulo 1\Portafolio\Backend\src\main\java\com\portfolio\BackEnd\Repository\Rhys.java
+D:\Argentina Programa\2da Parte\Modulo 1\Portafolio\Backend\src\main\java\com\portfolio\BackEnd\configuration\CorsConfiguration.java
 D:\Argentina Programa\2da Parte\Modulo 1\Portafolio\Backend\src\main\java\com\portfolio\BackEnd\Controller\CExperiencia.java
 D:\Argentina Programa\2da Parte\Modulo 1\Portafolio\Backend\src\main\java\com\portfolio\BackEnd\Security\Controller\AuthController.java
 D:\Argentina Programa\2da Parte\Modulo 1\Portafolio\Backend\src\main\java\com\portfolio\BackEnd\Security\Service\RolService.java
