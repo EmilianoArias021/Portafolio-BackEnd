@@ -23,19 +23,23 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 
-@CrossOrigin(origins = {"https://frontendpela.web.app","http://localhost:4200"})
+
 @RequestMapping("/skill")
 public class CHys {
 
     @Autowired
     Shys shys;
-
+    
+    
+    @CrossOrigin(origins = {"https://frontendpela.web.app","http://localhost:4200"})
     @GetMapping("/lista")
     public ResponseEntity<List<hys>> list() {
         List<hys> list = shys.list();
         return new ResponseEntity(list, HttpStatus.OK);
     }
-
+    
+    
+    @CrossOrigin(origins = {"https://frontendpela.web.app","http://localhost:4200"})
     @GetMapping("/detail/{id}")
     public ResponseEntity<hys> getById(@PathVariable("id") int id) {
         if (!shys.existsById(id)) {
@@ -44,7 +48,9 @@ public class CHys {
         hys hYs = shys.getOne(id).get();
         return new ResponseEntity(hYs, HttpStatus.OK);
     }
-
+    
+    
+    @CrossOrigin(origins = {"https://frontendpela.web.app","http://localhost:4200"})
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") int id) {
         if (!shys.existsById(id)) {
@@ -53,7 +59,9 @@ public class CHys {
         shys.delete(id);
         return new ResponseEntity(new Mensaje("Skill eliminado"), HttpStatus.OK);
     }
-
+    
+    
+    @CrossOrigin(origins = {"https://frontendpela.web.app","http://localhost:4200"})
     @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody dtoHys dtohys) {
         if (StringUtils.isBlank(dtohys.getNombre())) {
@@ -68,7 +76,9 @@ public class CHys {
 
         return new ResponseEntity(new Mensaje("Skill agregada"), HttpStatus.OK);
     }
-
+    
+    
+    @CrossOrigin(origins = {"https://frontendpela.web.app","http://localhost:4200"})
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoHys dtohys) {
         //Validamos si existe el ID
