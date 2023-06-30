@@ -4,6 +4,7 @@ com\portfolio\BackEnd\Security\Entity\Usuario.class
 com\portfolio\BackEnd\Security\Enums\RolNombre.class
 com\portfolio\BackEnd\Repository\REducacion.class
 com\portfolio\BackEnd\Repository\Rhys.class
+com\portfolio\BackEnd\BackEndApplication$1.class
 com\portfolio\BackEnd\BackEndApplication.class
 com\portfolio\BackEnd\Service\SExperiencia.class
 com\portfolio\BackEnd\Controller\CExperiencia.class
